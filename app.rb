@@ -1,6 +1,6 @@
 require './environment'
 
-#module FormsLab
+module FormsLab
   class App < Sinatra::Base
 
     # code other routes/actions here
@@ -13,4 +13,4 @@ require './environment'
     end
 
   end
-#end
+end
