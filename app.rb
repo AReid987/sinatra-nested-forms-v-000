@@ -8,9 +8,9 @@ module FormsLab
       erb :root
     end
 
-    #get '/new' do
+    get '/new' do
     #  erb :new
-  #  end
+    end
 
   end
 end
