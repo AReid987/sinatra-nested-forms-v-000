@@ -2,10 +2,15 @@
 <form action="/show" method="post">
   <label for="pirate name">Pirate Name</label>
   <input type="text" name="pirate[name]">
+  <label for="pirate weight">Pirate Weight</label>
   <input type="text" name="pirate[weight]">
+  <label for="pirate height">Pirate Height</label>
   <input type="text" name="pirate[height]">
+  <label for="ship name">Ship Name</label>
   <input type="text" name="pirate[ships][][name]">
-    <input type="text" name="pirate[ships][][type]">
-      <input type="text" name="pirate[ships][][booty]">
+  <label for="ship ship">Ship Type</label>
+  <input type="text" name="pirate[ships][][type]">
+  <label for="booty">Booty</label>
+  <input type="text" name="pirate[ships][][booty]">
   <input type="submit">
 </form>
